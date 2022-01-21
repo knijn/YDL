@@ -1,4 +1,4 @@
-NOTE: This will no longer be updated except bugfixes
+NOTE: This fork will be updated with feature requests
 
 # YT-DLP Launcher
 
@@ -39,13 +39,13 @@ All settings are saved in the file [ydl.ahk.ini](ydl.ahk.ini). The settings are 
 
 ### \[Options\]
 
-Key | Saves the last used value of
+Key          | Saves the last used value of
 ------------ | -------------
-**prof**|[Profile](#profiles)
-**res**|Resolution
-**sign**|Sign prefixing Resolution (`>=`/`<=`)
-**path**|Path
-**opts**|[Options](https://github.com/yt-dlp/yt-dlp#options) to be passed to `yt-dlp`
+**prof**     |[Profile](#profiles)
+**res**      |Resolution
+**sign**     |Sign prefixing Resolution (`>=`/`<=`)
+**path**     |Path
+**opts**     |[Options](https://github.com/yt-dlp/yt-dlp#options) to be passed to `yt-dlp`
 
 
 ### \[Hidden\]
@@ -54,9 +54,9 @@ These options are not changable in the GUI.
 
 Key | Description
 ------------ | -------------
-**log**| Whether to log the command to [ydl.ahk.log](ydl.ahk.log). (`1`=Log, `0`=Don't log)
-**update**| Whether to update yt-dlp automatically. (`1`=Update, `0`=Don't update)
-**opts**| These [options](https://github.com/yt-dlp/yt-dlp#options) will be additionally passed to `yt-dlp`. Only the options given in **\[Options\]/opts** may override these. **PS:** It is now recommended to create a `yt-dlp.conf` file for your common options instead. See [portable config](https://github.com/yt-dlp/yt-dlp#configuration)
+**log**      | Whether to log the command to [ydl.ahk.log](ydl.ahk.log). (`1`=Log, `0`=Don't log)
+**update**   | Whether to update yt-dlp automatically. (`1`=Update, `0`=Don't update)
+**opts**     | These [options](https://github.com/yt-dlp/yt-dlp#options) will be additionally passed to `yt-dlp`. Only the options given in **\[Options\]/opts** may override these. **PS:** It is now recommended to create a `yt-dlp.conf` file for your common options instead. See [portable config](https://github.com/yt-dlp/yt-dlp#configuration)
 
 ## FAQ
 
