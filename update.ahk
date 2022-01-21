@@ -6,7 +6,7 @@ global TEMP:=A_ScriptDir "\temp"
 
 Options:=[	 {	 url: "https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe"
 				,file: "yt-dlp.exe", name: "yt-dlp" 											}
-			,{	 url: "https://codeload.github.com/pukkandan/YDL/zip/master"
+			,{	 url: "https://codeload.github.com/knijn/YDL/zip/master"
 				,file: TEMP "\update.zip", name: "YDL", unzip: TEMP, overwrite: True
 				,run: TEMP "\YDL-master\update-run-once.ahk"										}	]
 
